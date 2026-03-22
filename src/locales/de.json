@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "services": "Leistungen",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "impressum": "Impressum",
+    "back": "Zurück zur Startseite"
+  },
+  "hero": {
+    "role": "Softwareentwickler & Berater",
+    "headline": "Zuverlässige, effiziente Softwarelösungen entwickeln",
+    "description": "Ich bin Full-Stack-Softwareentwickler und Berater mit einem Master in Softwarearchitektur und Azure-Cloud-Zertifizierung. Ich helfe Menschen, Software sinnvoll zu nutzen und effizienter zu arbeiten, indem ich robuste Anwendungen entwickle, die rund um die Uhr laufen – unabhängig von Sprache oder Framework.",
+    "getStarted": "Loslegen",
+    "viewWork": "Arbeiten ansehen"
+  },
+  "strengths": {
+    "title": "Meine Kernkompetenzen",
+    "description": "Ich liefere skalierbare, produktionsreife Lösungen für reale Probleme und habe Erfahrung mit Frontend- und Backend-Frameworks, Cloud und datenintensiven Projekten.",
+    "web": {
+      "title": "Webentwicklung",
+      "desc": "Ich entwickle Full-Stack-Anwendungen, die zuverlässig rund um die Uhr laufen – mit den besten Tools, unabhängig von Sprache oder Framework.",
+      "points": [
+        "Frontend- & Backend-Frameworks",
+        "24/7 Hochverfügbarkeits-Systeme",
+        "Sprach- & Plattformunabhängig",
+        "Benutzerzentriertes Design"
+      ]
+    },
+    "strategy": {
+      "title": "Digitale Strategie",
+      "desc": "Ich berate zu Softwarearchitektur, Cloud und KI und helfe Teams und Einzelpersonen, Technologie effizient und gewinnbringend einzusetzen.",
+      "points": [
+        "Zertifizierter Azure Cloud Engineer",
+        "Master in Softwarearchitektur",
+        "KI- & datenintensive Projekte",
+        "Effizienz- & Produktivitätsberatung"
+      ]
+    },
+    "team": {
+      "title": "Teamunterstützung",
+      "desc": "Ich arbeite gerne im Team und eigenständig, unterstütze Kunden mit ehrlicher Beratung und praktischer Entwicklung für anspruchsvolle Projekte.",
+      "points": [
+        "Teamarbeit & Führung",
+        "Eigenständige Projektabwicklung",
+        "Projekte mit vielen Nutzern & Daten",
+        "Ehrliche, hilfreiche Unterstützung"
+      ]
+    }
+  },
+  "about": {
+    "title": "Warum mit mir arbeiten?",
+    "description": "Ich bringe umfassende Erfahrung in Softwarearchitektur, Cloud und Full-Stack-Entwicklung mit. Mein Ziel ist es, Menschen zu helfen, Software effizient zu nutzen – mit Lösungen, die robust, skalierbar und einfach zu bedienen sind.",
+    "points": [
+      {
+        "title": "Effizienz & Usability",
+        "desc": "Ich gestalte jedes Projekt so, dass Nutzer effizienter arbeiten können – mit klaren, zugänglichen und intuitiven Oberflächen."
+      },
+      {
+        "title": "Hilfreiche Lösungen",
+        "desc": "Mein Ziel ist es, Software zu liefern, die echte Probleme löst und Menschen täglich unterstützt."
+      },
+      {
+        "title": "Produktionsreif & skalierbar",
+        "desc": "Ich liefere robusten, wartbaren Code, der gründlich getestet, skalierbar und bereit für den Einsatz ist."
+      },
+      {
+        "title": "Teamarbeit & Eigenständigkeit",
+        "desc": "Ich arbeite gerne im Team, kann aber auch Projekte eigenständig zuverlässig und wertorientiert umsetzen."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Lassen Sie uns zusammenarbeiten",
+    "description": "Haben Sie ein Projekt oder eine Herausforderung? Kontaktieren Sie mich und ich helfe Ihnen dabei, Software zu entwickeln, die wirklich etwas bewirkt.",
+    "formTitle": "Kontaktformular",
+    "formDesc": "Füllen Sie das Formular aus und ich melde mich zeitnah zurück.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "ihre.email@beispiel.com",
+    "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt...",
+    "send": "Nachricht senden",
+    "or": "Oder schreiben Sie direkt an"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "back": "Zurück zur Startseite",
+    "company": {
+      "title": "Firmeninformationen",
+      "name": "WiDev e. U. - Jakob Winkler",
+      "address": "Österreich",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Rechtliche Informationen",
+      "registration": "Firmenbuchnummer",
+      "registrationText": "FN 660470 f",
+      "vat": "USt-IdNr.",
+      "vatText": "ATU82602729",
+      "authority": "Zuständige Behörde",
+      "authorityText": "Handelsgericht Österreich"
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "content": "Die Informationen auf dieser Website dienen nur zu allgemeinen Informationszwecken. Obwohl ich mich bemühe, die Informationen aktuell und korrekt zu halten, gebe ich keine Zusicherungen oder Garantien jeglicher Art, ausdrücklich oder stillschweigend, über die Vollständigkeit, Genauigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit in Bezug auf die Website oder die Informationen, Produkte, Dienstleistungen oder verwandten Grafiken auf der Website für jeden Zweck."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "content": "Diese Website sammelt keine personenbezogenen Daten durch Cookies oder Tracking. Alle über das Kontaktformular bereitgestellten Informationen werden ausschließlich zur Beantwortung Ihrer Anfrage verwendet und nicht an Dritte weitergegeben."
+    }
+  },
+  "apps": {
+    "title": "Meine Apps",
+    "description": "Entdecken Sie die Anwendungen, die ich entwickelt habe, um reale Probleme zu lösen.",
+    "scanAndLearn": {
+      "description": "Verwandeln Sie Dokumente in interaktive Quizze. Laden Sie PDFs oder Text hoch, lassen Sie KI die Kernkonzepte extrahieren und starten Sie eine adaptive Lerneinheit innerhalb von Sekunden."
+    },
+    "jait": {
+      "description": "Lokaler KI-Coding-Agent-Arbeitsbereich mit Terminal, Dateisystem, Browsersteuerung, Bildschirmfreigabe und Aufgabenautomatisierung — kein Cloud-Backend erforderlich."
+    },
+    "moreComing": "Weitere Apps kommen bald..."
+
+  }
+}

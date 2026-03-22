@@ -1,0 +1,127 @@
+{
+  "navbar": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "impressum": "Impressum",
+    "back": "Back to Home"
+  },
+  "hero": {
+    "role": "Software Developer & Consultant",
+    "headline": "Building Reliable, Efficient Software Solutions",
+    "description": "I am a full stack software developer and consultant with a master's in software architecture and Azure cloud certification. I help people make good use of software to be more efficient in their work, delivering robust applications that run 24/7, independent of language or framework.",
+    "getStarted": "Get Started",
+    "viewWork": "View Work"
+  },
+  "strengths": {
+    "title": "My Core Strengths",
+    "description": "I deliver scalable, production-ready solutions for real-world problems, with expertise in both frontend and backend frameworks, cloud, and data-intensive projects.",
+    "web": {
+      "title": "Web Development",
+      "desc": "I build full stack applications that run reliably 24/7, using the best tools for the job—no matter the language or framework.",
+      "points": [
+        "Frontend & Backend Frameworks",
+        "24/7 High-Availability Systems",
+        "Language & Platform Independent",
+        "User-Centered Design"
+      ]
+    },
+    "strategy": {
+      "title": "Digital Strategy",
+      "desc": "I consult on software architecture, cloud, and AI, helping teams and individuals make the most of technology for efficiency and growth.",
+      "points": [
+        "Certified Azure Cloud Engineer",
+        "Masters in Software Architecture",
+        "AI & Data-Intensive Projects",
+        "Efficiency & Productivity Consulting"
+      ]
+    },
+    "team": {
+      "title": "Team Augmentation",
+      "desc": "I work well in teams and independently, supporting clients with honest advice and hands-on development for high-impact projects.",
+      "points": [
+        "Team Collaboration & Leadership",
+        "Independent Project Delivery",
+        "High User, High Data Projects",
+        "Honest, Helpful Support"
+      ]
+    }
+  },
+  "about": {
+    "title": "Why Work With Me?",
+    "description": "I bring deep experience in software architecture, cloud, and full stack development. My goal is to help people use software to work smarter, not harder, with solutions that are robust, scalable, and easy to use.",
+    "points": [
+      {
+        "title": "Efficiency & Usability",
+        "desc": "I design every project to make users more efficient, with clear, accessible, and intuitive interfaces."
+      },
+      {
+        "title": "Helpful Solutions",
+        "desc": "My goal is to deliver software that solves real problems and helps people get more done, every day."
+      },
+      {
+        "title": "Production-Ready & Scalable",
+        "desc": "I deliver robust, maintainable code that is thoroughly tested, scalable, and ready for real-world use."
+      },
+      {
+        "title": "Teamwork & Independence",
+        "desc": "I enjoy working in teams but am fully capable of delivering projects independently, always with a focus on reliability and value."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "Have a project or challenge? Get in touch and I'll help you build software that makes a real difference.",
+    "formTitle": "Contact Form",
+    "formDesc": "Fill out the form below and I'll get back to you shortly.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your.email@example.com",
+    "messagePlaceholder": "Tell me about your project...",
+    "send": "Send Message",
+    "or": "Or reach out directly at"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "back": "Back to Home",
+    "company": {
+      "title": "Company Information",
+      "name": "WiDev e. U. - Jakob Winkler",
+      "address": "Austria",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal Information",
+      "registration": "Business Registration",
+      "registrationText": "FN 660470 f",
+      "vat": "VAT ID",
+      "vatText": "ATU82602729",
+      "authority": "Competent Authority",
+      "authorityText": "Austrian Commercial Court"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "The information on this website is provided for general information purposes only. While I strive to keep the information up to date and correct, I make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "content": "This website does not collect personal data through cookies or tracking. Any information provided through the contact form will be used solely for the purpose of responding to your inquiry and will not be shared with third parties."
+    }
+  },
+  "apps": {
+    "title": "My Apps",
+    "description": "Explore the applications I've developed to solve real-world problems.",
+    "scanAndLearn": {
+      "description": "Transform documents into interactive quizzes. Upload PDFs or text, let AI extract key concepts and start an adaptive learning session within seconds."
+    },
+    "jait": {
+      "description": "Local-first AI coding agent workspace with terminal, filesystem, browser control, screen sharing, and task automation — no cloud backend required."
+    },
+    "moreComing": "More apps coming soon..."
+  }
+}

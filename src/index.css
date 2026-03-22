@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(14.5% 0 0);
+  --color-foreground: oklch(98% 0 0);
+  --color-card: oklch(18% 0 0);
+  --color-card-foreground: oklch(98% 0 0);
+  --color-popover: oklch(18% 0 0);
+  --color-popover-foreground: oklch(98% 0 0);
+  --color-primary: oklch(98% 0 0);
+  --color-primary-foreground: oklch(14.5% 0 0);
+  --color-secondary: oklch(23% 0 0);
+  --color-secondary-foreground: oklch(98% 0 0);
+  --color-muted: oklch(23% 0 0);
+  --color-muted-foreground: oklch(65% 0 0);
+  --color-accent: oklch(25% 0 0);
+  --color-accent-foreground: oklch(98% 0 0);
+  --color-destructive: oklch(30.6% 0.124 29.23);
+  --color-destructive-foreground: oklch(98% 0 0);
+  --color-border: oklch(27% 0 0);
+  --color-input: oklch(25% 0 0);
+  --color-ring: oklch(55% 0 0);
+  --color-sidebar-primary: oklch(98% 0 0);
+  --color-sidebar-primary-foreground: oklch(14.5% 0 0);
+  --radius: 0.625rem;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  /* Reserve space for content to prevent CLS */
+  #services {
+    min-height: 600px;
+  }
+
+  #about {
+    min-height: 400px;
+  }
+
+  #contact {
+    min-height: 500px;
+  }
+
+  /* CSS-based hero animations for faster FCP/LCP */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .hero-animate {
+    animation: fadeInUp 0.4s ease-out forwards;
+    opacity: 0;
+  }
+
+  .hero-animate-1 { animation-delay: 0ms; }
+  .hero-animate-2 { animation-delay: 50ms; }
+  .hero-animate-3 { animation-delay: 100ms; }
+  .hero-animate-4 { animation-delay: 150ms; }
+
+  .hero-logo-animate {
+    animation: scaleIn 0.5s ease-out 100ms forwards;
+    opacity: 0;
+  }
+}
+
+/* Disable horizontal scrolling globally */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Ensure all elements don't cause horizontal overflow */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent any element from extending beyond viewport width */
+body {
+  position: relative;
+}

@@ -1,0 +1,6 @@
+# robots.txt for WiDev
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://widev.at/sitemap.xml

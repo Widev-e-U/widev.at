@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WiDev — Full stack software development and consulting. Azure-certified cloud engineer delivering reliable, scalable applications." />
+    <meta name="theme-color" content="#171717" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://github.com" />
+    <link rel="dns-prefetch" href="https://linkedin.com" />
+    <title>WiDev - Software Development & Consulting</title>
+    <!-- Inline critical CSS for instant FCP -->
+    <style>
+      :root { color-scheme: dark; }
+      body { 
+        background-color: #171717; 
+        color: #fafafa; 
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      #root { min-height: 100vh; }
+      /* Hero skeleton for instant FCP */
+      .skeleton-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 56px;
+        background: rgba(23,23,23,0.8);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid #3a3a3a;
+        z-index: 50;
+      }
+      .skeleton-hero {
+        padding: 80px 24px 48px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .skeleton-line {
+        background: linear-gradient(90deg, #2a2a2a 25%, #3a3a3a 50%, #2a2a2a 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 4px;
+      }
+      .skeleton-badge { width: 140px; height: 24px; margin-bottom: 20px; }
+      .skeleton-title { width: 80%; max-width: 500px; height: 48px; margin-bottom: 16px; }
+      .skeleton-text { width: 100%; max-width: 576px; height: 80px; margin-bottom: 20px; }
+      .skeleton-buttons { display: flex; gap: 12px; }
+      .skeleton-btn { width: 120px; height: 40px; border-radius: 6px; }
+      @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+      /* Hero animations */
+      .hero-animate { 
+        animation: fadeInUp 0.4s ease-out forwards; 
+        opacity: 0; 
+      }
+      .hero-animate-1 { animation-delay: 0ms; }
+      .hero-animate-2 { animation-delay: 50ms; }
+      .hero-animate-3 { animation-delay: 100ms; }
+      .hero-animate-4 { animation-delay: 150ms; }
+      .hero-logo-animate { 
+        animation: scaleIn 0.5s ease-out 100ms forwards; 
+        opacity: 0; 
+      }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(16px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes scaleIn {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Skeleton shown immediately for better FCP -->
+      <div class="skeleton-nav"></div>
+      <div class="skeleton-hero">
+        <div class="skeleton-line skeleton-badge"></div>
+        <div class="skeleton-line skeleton-title"></div>
+        <div class="skeleton-line skeleton-text"></div>
+        <div class="skeleton-buttons">
+          <div class="skeleton-line skeleton-btn"></div>
+          <div class="skeleton-line skeleton-btn"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
