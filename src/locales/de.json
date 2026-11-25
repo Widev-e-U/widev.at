@@ -48,6 +48,8 @@
     }
   },
   "about": {
+    "aiIntro": "Ich bin Jakob. Ich entwickle Software mit KI-Coding-Agenten. Ich nutze sie, um Entwürfe zu erkunden, Code zu schreiben und zu überprüfen sowie Fehler zu untersuchen. Ich entscheide, was gebaut wird, steuere die Umsetzung und prüfe vor der Veröffentlichung, ob das Ergebnis funktioniert.",
+    "jaitIntro": "Außerdem entwickle ich Jait, einen Arbeitsbereich für die Arbeit mit KI-Agenten. Er vereint die Werkzeuge, mit denen ich Software plane, bearbeite, ausführe und überprüfe. Ich nutze Jait für meine eigenen Projekte – die Schwierigkeiten, auf die ich dabei stoße, helfen mir zu entscheiden, was ich als Nächstes einbaue.",
     "title": "Warum mit mir arbeiten?",
     "description": "Ich bringe umfassende Erfahrung in Softwarearchitektur, Cloud und Full-Stack-Entwicklung mit. Mein Ziel ist es, Menschen zu helfen, Software effizient zu nutzen – mit Lösungen, die robust, skalierbar und einfach zu bedienen sind.",
     "points": [

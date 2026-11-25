@@ -38,6 +38,12 @@ export default function AboutSection({ t }: AboutSectionProps) {
           >
             {t("about.description")}
           </motion.p>
+          <motion.p variants={fadeUp} className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4">
+            {t("about.aiIntro")}
+          </motion.p>
+          <motion.p variants={fadeUp} className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8">
+            {t("about.jaitIntro")}
+          </motion.p>
           <motion.div
             variants={staggerContainer}
             initial="hidden"
