@@ -48,8 +48,8 @@
     }
   },
   "about": {
-    "aiIntro": "Ich bin Jakob. Ich entwickle Software mit KI-Coding-Agenten. Ich nutze sie, um Entwürfe zu erkunden, Code zu schreiben und zu überprüfen sowie Fehler zu untersuchen. Ich entscheide, was gebaut wird, steuere die Umsetzung und prüfe vor der Veröffentlichung, ob das Ergebnis funktioniert.",
-    "jaitIntro": "Außerdem entwickle ich Jait, einen Arbeitsbereich für die Arbeit mit KI-Agenten. Er vereint die Werkzeuge, mit denen ich Software plane, bearbeite, ausführe und überprüfe. Ich nutze Jait für meine eigenen Projekte – die Schwierigkeiten, auf die ich dabei stoße, helfen mir zu entscheiden, was ich als Nächstes einbaue.",
+    "aiIntro": "Mein Name ist Jakob. Ich bin Softwareentwickler und Berater. Ich helfe Menschen dabei, Ideen und Herausforderungen aus dem Arbeitsalltag in zuverlässige Software zu übersetzen, die nützlich, einfach zu bedienen und langlebig ist. Dabei verbinde ich meine Erfahrung in Architektur und Entwicklung mit KI-Coding-Agenten, um Lösungen zu erkunden, umzusetzen und zu überprüfen.",
+    "jaitIntro": "Außerdem entwickle ich Jait, einen Arbeitsbereich für die Arbeit mit KI-Agenten. Indem ich Jait selbst entwickle und in meinen Projekten nutze, verbessere ich die Werkzeuge und Arbeitsabläufe hinter der Software, die ich entwickle.",
     "title": "Warum mit mir arbeiten?",
     "points": [
       {
@@ -124,6 +124,5 @@
       "description": "Lokaler KI-Coding-Agent-Arbeitsbereich mit Terminal, Dateisystem, Browsersteuerung, Bildschirmfreigabe und Aufgabenautomatisierung — kein Cloud-Backend erforderlich."
     },
     "moreComing": "Weitere Apps kommen bald..."
-
   }
 }

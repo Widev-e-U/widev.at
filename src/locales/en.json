@@ -48,8 +48,8 @@
     }
   },
   "about": {
-    "aiIntro": "I’m Jakob. I build software with AI coding agents. I use them to explore designs, write and review code, and investigate bugs. I decide what to build, steer the implementation, and verify that the result works before I ship it.",
-    "jaitIntro": "I’m also developing Jait, a workspace for working with AI agents. It brings the tools I use to plan, edit, run, and check software into one place. I use it on my own projects, so the friction I run into helps decide what I build into Jait next.",
+    "aiIntro": "I’m Jakob, a software developer and consultant. I help people turn ideas and everyday challenges into reliable software that is useful, easy to work with, and built to last. I use AI coding agents alongside my experience in architecture and development to explore solutions, build them, and check that they work.",
+    "jaitIntro": "I also develop Jait, a workspace for working with AI agents. Building and using it in my own projects helps me improve the tools and workflows behind the software I deliver.",
     "title": "Why Work With Me?",
     "points": [
       {
