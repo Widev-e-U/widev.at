@@ -32,12 +32,6 @@ export default function AboutSection({ t }: AboutSectionProps) {
           >
             {t("about.title")}
           </motion.h2>
-          <motion.p
-            variants={fadeUp}
-            className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8"
-          >
-            {t("about.description")}
-          </motion.p>
           <motion.p variants={fadeUp} className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4">
             {t("about.aiIntro")}
           </motion.p>
